@@ -26,7 +26,7 @@ thanksGiving.setFullYear(thanksGiving.getFullYear()+1);
 }
 var one_day=1000*60*60*24;
 console.log(Math.ceil(thanksGiving.getTime()-today.getTime())/(one_day))+
-" days left until ThanksGiving!");
+"days left until ThanksGiving!");
 }
 
 
