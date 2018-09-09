@@ -13,8 +13,15 @@ function happyHolidayTo(holiday, name){
 }
 
 function holidayCountdown(holiday, days){
-  today=new Date();
-  
+  today=new Date();}
+  hoiliday=new Date(today.getFullYear(), 11, 25);
+if (today.getMonth()==11 && today.getDate()>25)
+{
+  holiday.setFullYear(holiday.getFullYear()+1);
+}
+ var one_day=1000*60*60*24;
+console.log(Math.ceil((holiday.getTime()-today.getTime())/(one_day))+
+" days left until Christmas!"); 
   
   
   
